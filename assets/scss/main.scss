@@ -1,0 +1,35 @@
+// abstracts
+@import 'abstracts/variables'; 
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+
+// Vendors
+@import 'vendors/bootstrap';
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+
+
+// Layout
+@import 'layout/header'; 
+@import 'layout/hero'; 
+@import 'layout/main-section';
+@import 'layout/article';
+@import 'layout/nosotros';
+@import 'layout/contact';
+@import 'layout/footer';
+
+// Components
+@import 'components/buttons'; 
+@import 'components/carousel'; 
+
+// Pages
+// Theme
+
+
+
+
+
+
+

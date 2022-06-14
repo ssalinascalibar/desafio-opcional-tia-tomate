@@ -1,0 +1,24 @@
+article {
+    @include flex-center-column;
+    .tomates-organicos-img, .desde-limache-img{
+        @include main-article-img;
+    }
+    .article-title{
+        @include bold-large;
+        
+    }
+    .article-content{
+        @include regular-medium;
+    }
+
+    
+}
+
+.tomates-organicos{
+    color: $white;
+}
+
+.desde-limache, .javiera, .roberto{
+    color: $granite-gray;
+} 
+

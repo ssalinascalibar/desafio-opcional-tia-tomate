@@ -1,0 +1,15 @@
+.nosotros{
+    .javiera-img, .roberto-img{
+        @include nosotros-img;
+    }
+    
+    .section-title{
+        background-color: $jelly-bean;
+        padding: 4rem 0;
+        text-align: center;
+        color: $white;
+        font-size: $x-large;
+        font-weight: $bold;
+    }
+    
+}

@@ -1,0 +1,11 @@
+.contact{
+    @include flex-center-column;
+    padding: 4rem 0;
+    background-color: $jelly-bean;
+    .contact-title{
+        font-size: $large;
+        font-weight: $bold;
+        color: $white;
+        
+    }
+}

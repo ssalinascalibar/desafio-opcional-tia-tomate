@@ -1,0 +1,13 @@
+@import '../abstracts/variables.scss';
+
+.main-section{
+    @include flex-center-column;
+    .tomates-organicos{
+        background-color: $taupe-gray;
+    }
+
+    .desde-limache{
+        background-color: $white;
+    }
+    
+}

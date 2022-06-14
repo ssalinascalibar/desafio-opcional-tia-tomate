@@ -1,0 +1,11 @@
+@import '../abstracts/variables.scss';
+
+header{
+    display: flex;
+    background-color: $white;
+    & .logo{
+        width: 20%;
+        padding: 1rem 0;
+        @include container;
+    }
+}

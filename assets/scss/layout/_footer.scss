@@ -1,0 +1,9 @@
+footer{
+    @include flex-center-column;
+    background-color: $granite-gray;
+    
+    & .logo{
+        width: 20%;
+        padding: 6rem 0;
+    }
+}
